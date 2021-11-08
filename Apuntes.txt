@@ -1,0 +1,81 @@
+Archivos del proyecto____________________________
+components
+	cabecera	
+	pie-de-pagina
+    module
+pages
+	docente
+		alumnos
+		codigo-qr
+		homed
+		opciones
+		secciones
+	global
+		home
+		recuperar-clave
+	alumno
+		---
+		---
+service
+--
+ionic g component components/cabecera
+ionic g component components/pie-de-pagina
+--
+ionic g module components
+--
+ionic g page pages/docente/alumnos			READ   DEL C.R.U.D
+ionic g page pages/docente/alumnos-add		CREATE DEL C.R.U.D
+ionic g page pages/docente/codigo-qr
+ionic g page pages/docente/homed
+ionic g page pages/docente/opciones
+ionic g page pages/docente/secciones
+--
+ionic g page pages/global/recuperar-clave
+--
+ionic g page pages/alumno/homea
+--
+ionic g service services/alumnos
+--
+npm install ngx-qrcode2
+
+npm i -g cordova 
+
+ionic cordova plugin add phonegap-plugin-barcodescanner
+npm install @ionic-native/barcode-scanner
+
+ionic cordova plugin add cordova-base64-to-gallery
+npm install @ionic-native/base64-to-gallery
+
+_______________________________________________
+Gmail
+RegistroAppJs
+R_2FHN4ew52awVL
+_______________________________________________
+Strapi
+Registro Js
+registroappjs@gmail.com
+R_2FHN4ew52awVL
+_______________________________________________
+npx create-strapi-app backend
+create custom
+n 				Would you like ...?
+MySQL			DataBase Client
+enter ...		DataBase name
+enter ...		Host 	 name
+user root		User : 
+enter ...		Password
+n				Enable SSL connection 
+_______________________________________________
+QUE COSAS FALTAN
+SUBIR IMAGEN
+ALERTA UNA VEZ SE ELIMINE U AGREGUE
+_______________________________________________
+LEVANTAR BACKEND
+cd backend
+npm run develop
+_______________________________________________
+LEVANTAR FRONTEND
+cd frontend
+ionic serve
+_______________________________________________
+27/10/2021 : Nuevo formato para mostrar los alumnos

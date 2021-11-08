@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumnos",
+  "info": {
+    "name": "Alumnos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pnombre": {
+      "type": "string"
+    },
+    "snombre": {
+      "type": "string"
+    },
+    "appaterno": {
+      "type": "string"
+    },
+    "apmaterno": {
+      "type": "string"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "fecha_nac": {
+      "type": "date"
+    },
+    "numero_seg": {
+      "type": "biginteger"
+    },
+    "sub_info": {
+      "type": "boolean"
+    }
+  }
+}
